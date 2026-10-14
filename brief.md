@@ -2,8 +2,8 @@ Version: NAFATH-V1
 Track: Cybersecurity
 
 ## Overview
-A secure national login service must connect six IT fields rather than treat them as separate tasks. Software standards help the website and mobile app confirm a user’s identity and grant access to the appropriate services. AI can flag unusual login patterns, but its alerts need testing, human review, and safeguards against incorrect decisions. The mobile app should request Android permissions only when needed and explain their purpose. Networking protections such as DNS over HTTPS can reduce exposure of domain lookups, although they do not encrypt all activity or prove that a website is trustworthy. Data practices must follow Oman’s personal data law and use appropriate safeguards. For my Cybersecurity track, phishing-resistant authentication is essential to protect citizens from account takeover.
 
+NAFATH-V1 is a proposed national login service that helps citizens access government services securely. It connects six IT areas: Software, AI, Mobile, Networking, Cybersecurity, and Data. Each area has an important role. Software manages login and access, AI helps identify unusual activity, and Mobile provides access through phones. Networking protects communication, Cybersecurity helps defend against attacks, and Data practices protect personal information. All six areas must work together to make the service secure, reliable, and easy to use.
 
 ## Software
 
