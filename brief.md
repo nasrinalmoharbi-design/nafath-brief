@@ -6,7 +6,7 @@ A secure national login service must connect six IT fields rather than treat the
 
 
 ## Software
-Software
+
 
 OAuth 2.0 and OpenID Connect have different purposes. OAuth 2.0 allows an application to access protected resources with permission. OpenID Connect (OIDC) adds an identity layer to OAuth 2.0 and is designed for user login. In the national login service, OIDC helps confirm the citizen’s identity, while OAuth 2.0 controls access to protected services. Both work together to support secure access to government services.
 
