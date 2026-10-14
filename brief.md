@@ -17,19 +17,12 @@ https://openid.net/specs/openid-connect-core-1_0.html
 
 
 ## AI
-AI can help detect suspicious logins by identifying unusual patterns, such as logins from unexpected locations or devices. Before using the model, the authority should assess privacy, bias, security, accuracy, and the risk of false alerts. The NIST AI Risk Management Framework recommends managing AI risks through the functions Govern, Map, Measure, and Manage. Human review, testing, monitoring, and clear accountability should be in place before launch.
 
-Resource: NIST AI Risk Management Framework - https://www.nist.gov/itl/ai-risk-management-framework
 
-## Mobile
-Android uses a runtime permission model to control access to sensitive features and data on a device. An app must request permission when it needs a protected resource, such as the camera or location, and the user must approve the request when required. The login app should request only necessary permissions, explain why they are needed, and respect the user’s choice. This reduces unnecessary access to personal information.
+AI can help NAFATH-V1 detect unusual login activity, such as repeated failed login attempts or logins from unexpected locations. However, AI can make mistakes and may identify normal activity as suspicious. The system should be tested regularly, protect users’ personal information, and allow security staff to review alerts. This helps make AI more reliable and reduces the risk of incorrect decisions.
 
-Resource: Android Developers - Request app permissions - https://developer.android.com/training/permissions/requesting
-
-## Networking
-DNS over HTTPS (DoH) sends DNS queries through encrypted HTTPS connections. It helps protect citizens’ domain lookups from being easily read or modified by someone monitoring the network. However, DoH does not hide all internet activity, encrypt every connection, or guarantee that a website is safe. The login service should use secure HTTPS connections and other security controls as well.
-
-Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
+Resource: NIST — AI Risk Management Framework
+https://www.nist.gov/itl/ai-risk-management-framework
 
 
 ## Cybersecurity
