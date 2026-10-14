@@ -68,4 +68,6 @@ Resource: NIST — Digital Identity Guidelines
 https://pages.nist.gov/800-63-4/sp800-63b.html
 
 ## Open Question
-How can the authority make phishing-resistant authentication easy for all citizens to use, including people with older devices or limited technical skills?
+Open Question
+
+How can NAFATH-V1 protect users’ personal information while making the login process easy and accessible for everyone?
