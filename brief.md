@@ -24,6 +24,13 @@ AI can help NAFATH-V1 detect unusual login activity, such as repeated failed log
 Resource: NIST — AI Risk Management Framework
 https://www.nist.gov/itl/ai-risk-management-framework
 
+## Mobile
+
+The NAFATH-V1 mobile app should protect users’ information and privacy. Android apps must request permission before accessing protected features, such as the camera or location, when required. The app should ask only for permissions it needs and explain why they are necessary. This helps users understand how their information is used and reduces unnecessary access to personal data.
+
+Resource: Android Developers — Request App Permissions
+https://developer.android.com/training/permissions/requesting
+
 
 ## Cybersecurity
 Phishing-resistant authentication helps prevent attackers from stealing login credentials through fake websites. Passkeys using FIDO2 or WebAuthn can provide phishing-resistant authentication when correctly implemented. SMS codes and one-time passwords entered into a fake website are not phishing-resistant because attackers may steal and reuse them. The national login service should prefer phishing-resistant methods to protect citizens’ accounts.
