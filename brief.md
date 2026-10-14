@@ -43,9 +43,14 @@ Resources:
 * 3GPP — Mobile Network Standards: https://www.3gpp.org/
 
 ## Cybersecurity
-Phishing-resistant authentication helps prevent attackers from stealing login credentials through fake websites. Passkeys using FIDO2 or WebAuthn can provide phishing-resistant authentication when correctly implemented. SMS codes and one-time passwords entered into a fake website are not phishing-resistant because attackers may steal and reuse them. The national login service should prefer phishing-resistant methods to protect citizens’ accounts.
 
-Resource: NIST SP 800-63B - Digital Identity Guidelines - https://pages.nist.gov/800-63-4/sp800-63b.html
+
+Cybersecurity protects NAFATH-V1 from attacks and unauthorized access. Attackers may use phishing to trick users into sharing their passwords or verification codes. The service should use strong authentication, control access to sensitive information, and monitor suspicious activity. Passkeys and security keys based on FIDO2 or WebAuthn can help prevent phishing when implemented correctly. These measures help protect citizens’ accounts and personal information.
+
+Resources:
+
+* NIST — Digital Identity Guidelines: https://pages.nist.gov/800-63-4/sp800-63b.html
+* W3C — Web Authentication (WebAuthn): https://www.w3.org/TR/webauthn-3/
 
 ## Data
 Oman’s Personal Data Protection Law requires organizations to handle personal data according to legal obligations. The authority should identify a lawful basis for processing, explain the purpose of collection, protect stored data, and respect individuals’ rights. It should also follow applicable rules for consent, data sharing, retention, and cross-border transfers. Legal and privacy teams should verify the requirements before the service launches.
