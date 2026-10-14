@@ -62,7 +62,10 @@ https://qanoon.om/p/2022/rd20220006/
 
 
 ## Misconception in My Track
-A common misconception is that using multi-factor authentication (MFA) automatically makes every login phishing-resistant. MFA adds extra verification, but attackers may still steal passwords and one-time codes through fake websites. Phishing-resistant methods, such as correctly implemented FIDO2 security keys or passkeys, bind authentication to the legitimate website and make credential theft harder. Therefore, the national login service should not treat all MFA methods as equally resistant to phishing.
+A common misconception is that multi-factor authentication (MFA) prevents all phishing attacks. MFA adds another layer of security, but attackers may still trick users into sharing their passwords and verification codes. Passkeys and security keys can provide stronger protection against phishing when implemented correctly. Therefore, NAFATH-V1 should use secure authentication methods to protect users’ accounts.
+
+Resource: NIST — Digital Identity Guidelines
+https://pages.nist.gov/800-63-4/sp800-63b.html
 
 ## Open Question
 How can the authority make phishing-resistant authentication easy for all citizens to use, including people with older devices or limited technical skills?
