@@ -53,9 +53,13 @@ Resources:
 * W3C — Web Authentication (WebAuthn): https://www.w3.org/TR/webauthn-3/
 
 ## Data
-Oman’s Personal Data Protection Law requires organizations to handle personal data according to legal obligations. The authority should identify a lawful basis for processing, explain the purpose of collection, protect stored data, and respect individuals’ rights. It should also follow applicable rules for consent, data sharing, retention, and cross-border transfers. Legal and privacy teams should verify the requirements before the service launches.
 
-Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://qanoon.om/p/2022/rd20220006/
+
+NAFATH-V1 must protect citizens’ personal information. The service should collect only the data it needs and explain why the data is collected. Access to personal information should be limited to authorized people, and stored data should be protected from unauthorized access. The service must also follow Oman’s Personal Data Protection Law and applicable regulations. These practices help protect privacy and build citizens’ trust in the service.
+
+Resource: Oman Personal Data Protection Law — Royal Decree 6/2022
+https://qanoon.om/p/2022/rd20220006/
+
 
 ## Misconception in My Track
 A common misconception is that using multi-factor authentication (MFA) automatically makes every login phishing-resistant. MFA adds extra verification, but attackers may still steal passwords and one-time codes through fake websites. Phishing-resistant methods, such as correctly implemented FIDO2 security keys or passkeys, bind authentication to the legitimate website and make credential theft harder. Therefore, the national login service should not treat all MFA methods as equally resistant to phishing.
