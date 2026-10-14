@@ -8,9 +8,13 @@ NAFATH-V1 is a proposed national login service that helps citizens access govern
 ## Software
 
 
-OAuth 2.0 and OpenID Connect have different purposes. OAuth 2.0 allows an application to access protected resources with permission. OpenID Connect (OIDC) adds an identity layer to OAuth 2.0 and is designed for user login. In the national login service, OIDC helps confirm the citizen’s identity, while OAuth 2.0 controls access to protected services. Both work together to support secure access to government services.
+Software
 
-Resource: OpenID Connect Core 1.0 - https://openid.net/specs/openid-connect-core-1_0.html
+Software helps NAFATH-V1 verify users and give them access to the correct services. OAuth 2.0 allows applications to access protected resources with permission. OpenID Connect (OIDC) helps confirm a user’s identity during login. Using these standards correctly can make the login process more secure and help protect government services from unauthorized access.
+
+Resource: OpenID Foundation — OpenID Connect Core 1.0
+https://openid.net/specs/openid-connect-core-1_0.html
+
 
 ## AI
 AI can help detect suspicious logins by identifying unusual patterns, such as logins from unexpected locations or devices. Before using the model, the authority should assess privacy, bias, security, accuracy, and the risk of false alerts. The NIST AI Risk Management Framework recommends managing AI risks through the functions Govern, Map, Measure, and Manage. Human review, testing, monitoring, and clear accountability should be in place before launch.
