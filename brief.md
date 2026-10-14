@@ -32,6 +32,16 @@ Resource: Android Developers — Request App Permissions
 https://developer.android.com/training/permissions/requesting
 
 
+## Networking
+
+Networking allows the NAFATH-V1 mobile app and servers to communicate securely. HTTPS helps protect information while it travels between the app and the server. DNS over HTTPS (DoH) encrypts DNS queries, making them harder for others on the network to read or change. However, DoH does not protect all internet activity or guarantee that a website is safe. NAFATH-V1 should use secure communication protocols and proper network security controls to protect users’ information.
+
+Resources:
+
+* IETF RFC 8484 — DNS Queries over HTTPS (DoH): https://www.rfc-editor.org/rfc/rfc8484
+* IETF RFC 8446 — TLS 1.3: https://www.rfc-editor.org/rfc/rfc8446
+* 3GPP — Mobile Network Standards: https://www.3gpp.org/
+
 ## Cybersecurity
 Phishing-resistant authentication helps prevent attackers from stealing login credentials through fake websites. Passkeys using FIDO2 or WebAuthn can provide phishing-resistant authentication when correctly implemented. SMS codes and one-time passwords entered into a fake website are not phishing-resistant because attackers may steal and reuse them. The national login service should prefer phishing-resistant methods to protect citizens’ accounts.
 
