@@ -38,5 +38,7 @@ Oman’s Personal Data Protection Law requires organizations to handle personal 
 Resource: Oman Personal Data Protection Law, Royal Decree 6/2022 - https://qanoon.om/p/2022/rd20220006/
 
 ## Misconception in My Track
+A common misconception is that using multi-factor authentication (MFA) automatically makes every login phishing-resistant. MFA adds extra verification, but attackers may still steal passwords and one-time codes through fake websites. Phishing-resistant methods, such as correctly implemented FIDO2 security keys or passkeys, bind authentication to the legitimate website and make credential theft harder. Therefore, the national login service should not treat all MFA methods as equally resistant to phishing.
 
 ## Open Question
+How can the authority make phishing-resistant authentication easy for all citizens to use, including people with older devices or limited technical skills?
