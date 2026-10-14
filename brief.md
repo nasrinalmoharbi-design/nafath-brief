@@ -8,7 +8,7 @@ NAFATH-V1 is a proposed national login service that helps citizens access govern
 ## Software
 
 
-Software
+
 
 Software helps NAFATH-V1 verify users and give them access to the correct services. OAuth 2.0 allows applications to access protected resources with permission. OpenID Connect (OIDC) helps confirm a user’s identity during login. Using these standards correctly can make the login process more secure and help protect government services from unauthorized access.
 
